@@ -1,9 +1,7 @@
 #include  <stdio.h>
-
 /**
  * main - Entry point
- *
- * print string 
+ * print string
  *
  * Return: Always 0 (Success)
  */
