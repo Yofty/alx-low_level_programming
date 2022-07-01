@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry pint 
- * determine if the number id negaitve or possetive 
+ * main - Entry pint
+ * determine if the number id negaitve or possetive
  *
- * This program will assign a random number to the variable n each time it is executed 
+ * will assign a random number to the variable n each time it is executed
  * Return: Always 0
  */
 int main(void)
@@ -13,6 +13,7 @@ int main(void)
 	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
