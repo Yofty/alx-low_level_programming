@@ -13,9 +13,10 @@ int main(void)
 	{
 		for (y = 0 ; y < 10 ; y++)
 		{
-			for (z = 0 ; z < 10 ; z++)
+			a = 0;
+			for (z = x ; z < 10 ; z++)
 			{
-				for (a = y + 1; a < 10 ; a++)
+				for (a = y + 1 ; a < 10 ; a++)
 				{
 					putchar(x + '0');
 					putchar(y + '0');
@@ -23,7 +24,7 @@ int main(void)
 					putchar(z + '0');
 					putchar(a + '0');
 
-					if (x < 6 || y < 7 || z < 8 || a < 9)
+					if (x < 9 || y < 8 || z < 9 || a < 9)
 					{
 						putchar(',');
 						putchar(' ');
