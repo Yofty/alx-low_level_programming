@@ -9,14 +9,17 @@ int main(void)
 {
 	int x, y, z, a;
 
-	for (x = 0 ; x < 10 ; x++)
+	x = 0;
+	while (x < 10)
 	{
-		for (y = 0 ; y < 10 ; y++)
+		y = 0;
+		while (y < 10)
 		{
-			a = 0;
-			for (z = x ; z < 10 ; z++)
+			a = y + 1;
+			z = x;
+			while (z < 10)
 			{
-				for (a = y + 1 ; a < 10 ; a++)
+				while (a < 10)
 				{
 					putchar(x + '0');
 					putchar(y + '0');
@@ -29,9 +32,14 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
+					a++;
 				}
+				a = 0;
+				z++;
 			}
+			y++;
 		}
+		x++;
 	}
 	putchar('\n');
 	return (0);
