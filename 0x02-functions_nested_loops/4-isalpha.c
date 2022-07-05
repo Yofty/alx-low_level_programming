@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - hecks for alphabetic character
- * @c - thc input from user
+ * @c - c is thc input from user
  *
  * Return: 1 (for letter) or 0
  */
