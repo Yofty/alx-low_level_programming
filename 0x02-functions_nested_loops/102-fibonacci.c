@@ -18,7 +18,7 @@ int main(void)
 		z = y;
 
 		printf("%d", z);
-		if (x != 20365011074)
+		if (a <= 49)
 			printf(", ");
 	}
 	putchar('\n');
