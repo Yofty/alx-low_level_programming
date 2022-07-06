@@ -39,8 +39,12 @@ void print_times_table(int n)
 					_putchar(((r % 100) / 10) + '0');
 					_putchar((r % 10) + '0');
 				}
-				_putchar(',');
-				_putchar(' ');
+
+				if (y < n)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
 			_putchar('\n');
 		}
