@@ -21,6 +21,6 @@ int main(void)
 			z = z + x;
 	}
 	a = y + z;
-	printf("%lu\n", a);
+	printf("%d\n", a);
 	return (0);
 }
