@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
  * main - checks if positive_or_negative gives the correct output
- *
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
