@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
+ * main - entry point
+ * prints the largest prime number
  *
- *
- *
+ * Return: Always 0
  */
 int main(void)
 {
