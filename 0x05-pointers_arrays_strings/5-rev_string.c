@@ -24,7 +24,7 @@ void rev_string(char *s)
 		b++;
 	}
 
-	for(x = 0 ; x < y / 2 ; x++)
+	for (x = 0 ; x < y / 2 ; x++)
 	{
 		c = *b;
 		*b = *a;
