@@ -12,6 +12,7 @@ void reverse_array(int *a, int n)
 
 	x = a;
 	y = a;
+
 	for (i = 0; i < n - 1; i++)
 	{
 		y++;
@@ -21,8 +22,8 @@ void reverse_array(int *a, int n)
 		z = *y;
 		*y = *x;
 		*x = z;
+		
 		x++;
 		y--;
 	}
 }
-
