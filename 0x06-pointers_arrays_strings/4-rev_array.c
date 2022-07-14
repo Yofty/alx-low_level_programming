@@ -22,7 +22,7 @@ void reverse_array(int *a, int n)
 		z = *y;
 		*y = *x;
 		*x = z;
-		
+
 		x++;
 		y--;
 	}
