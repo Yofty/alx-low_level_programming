@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * cap_string -  capitalizes all words of a string
- * @n : n is the input string
+ * @x : x is the input string
  *
  * Return: char (x)
  */
@@ -13,6 +13,7 @@ char *cap_string(char *x)
 	if (*(x + a) >= 97 && *(x + a) <= 122)
 		*(x + a) = *(a + x) - 32;
 	a++;
+
 	while (*(x + a) != '\0')
 	{
 		for (b = 0 ; b < 13 ; b++)
