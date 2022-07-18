@@ -4,7 +4,7 @@
  * @haystack : haystack is the string to be searched
  * @needle : needleis the substring to be looked for
  *
- * Return : char (needle) or null
+ * Return: char (needle) or null
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -22,11 +22,11 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (!*needle)
 		{
-			return(a);
+			return (a);
 		}
 		needle = b;
 		a++;
 		haystack = a;
 	}
-	return('\0');
+	return ('\0');
 }
