@@ -4,6 +4,8 @@
  * @dest : dest is a pointer to char to be updated
  * @src : src is a pointer to char to be updated
  * @n : n is the bytes of the memory
+ *
+ * Return: char(dest)
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
