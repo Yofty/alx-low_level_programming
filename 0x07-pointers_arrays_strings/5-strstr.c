@@ -22,11 +22,11 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (!*needle)
 		{
-			return (a);
+			return(a);
 		}
 		needle = b;
 		a++;
 		haystack = a;
 	}
-	return ('\0');
+	return('\0');
 }
