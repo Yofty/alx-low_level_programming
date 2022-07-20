@@ -1,8 +1,10 @@
 #include "main.h"
 /**
+ * _pow_recursion - returns the value of x raised to the power of y
+ * @x : x is the int to be updated
+ * @y : y is the int to be updated
  *
- *
- *
+ * Return: int(the result)
  */
 int _pow_recursion(int x, int y)
 {
