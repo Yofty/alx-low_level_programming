@@ -12,4 +12,5 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int _putchar(char c);
 int root(int n, int x);
+int prime(int n, int x);
 #endif
