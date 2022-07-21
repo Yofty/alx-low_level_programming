@@ -5,27 +5,26 @@
  *
  * Return: int(square root)
  */
-int square(int n, int x);
 int _sqrt_recursion(int n)
 {
-	return (square(n, 1));
+	return (root(n, 1));
 }
 /**
- * suare - finds the square root of the number
+ * root - finds the square root of the number
  * @n : n is the number to be updated
  * @x : x is the square root of n
  *
- * Return: int 
+ * Return: int
  */
-int square(int n, int x)
+int root(int n, int x)
 {
 	if (x * x == n)
 	{
 		return (x);
 	}
-	else if ( x * x < n)
+	else if (x * x < n)
 	{
-		return (square(n, x + 1));
+		return (root(n, x + 1));
 	}
 	else
 	{
