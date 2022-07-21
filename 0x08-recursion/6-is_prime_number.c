@@ -20,7 +20,7 @@ int prime(int n, int x)
 	{
 		return (0);
 	}
-	else if (n < 0 && x < 0 && x > n && n / x == 0)
+	else if (n < 0  && x > n && n / x == 0)
 	{
 		return (0);
 	}
