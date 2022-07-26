@@ -26,7 +26,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		x =0;
+		x = 0;
 		while (x < s)
 		{
 			y[x] = str[x];
