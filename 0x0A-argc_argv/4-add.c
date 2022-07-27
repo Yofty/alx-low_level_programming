@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
 			}
 		}
 		z = atoi(argv[argc]);
-		y = y + z
+		y = y + z;
 	}
 	printf("%d\n", y);
 	return (y);
