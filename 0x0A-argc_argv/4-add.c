@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		printf("%d\n", 0);
 		return (0);
 	}
-	while (argc > 0)
+	while (argc-- && argc > 0)
 	{
 		for (x = 0 ; argv[argc][x] != '\0' ; x++)
 		{
@@ -30,7 +30,6 @@ int main(int argc, char *argv[])
 		}
 		z = atoi(argv[argc]);
 		y = y + z;
-		argc--;
 	}
 	printf("%d\n", y);
 	return (y);
