@@ -32,5 +32,5 @@ int main(int argc, char* argv[])
 		y = y + z
 	}
 	printf("%d\n", y);
-	return (0);
+	return (y);
 }
