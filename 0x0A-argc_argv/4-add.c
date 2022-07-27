@@ -8,7 +8,7 @@
  * @argv : argv is the string of arguments
  * Return: 0 or 1
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	unsigned int  x, y, z;
 
