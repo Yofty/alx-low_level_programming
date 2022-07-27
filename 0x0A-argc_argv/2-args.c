@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints the arguments
- * @argc: argc is the number of argument
- * @argv[]: @argv is the string of argument
+ * @argc : argc is the number of argument
+ * @argv[] : @argv is the string of argument
  * Return: Always 0
  */
 int main(int argc, char* argv[])
@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
 
 	for (x = 0 ; x < argc ; x++)
 	{
-		printf("%s\n", argv[x]);
+		printf ("%s\n", argv[x]);
 	}
 	return (0);
 }
