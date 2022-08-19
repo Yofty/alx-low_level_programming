@@ -26,5 +26,5 @@ unsigned int binary_to_uint(const char *b)
 		if (b[x] & 1)
 			a = a + y;
 	}
-	return (a)
+	return (a);
 }
