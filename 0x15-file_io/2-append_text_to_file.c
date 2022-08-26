@@ -2,7 +2,7 @@
 /**
  * append_text_to_file - appends text at the end of a file
  * @filename : is the name of the file
- * @text_conten : is the content of the file
+ * @text_content : is the content of the file
  * Return: int
  */
 int append_text_to_file(const char *filename, char *text_content)
@@ -14,7 +14,7 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	x = open(filename, O_WRONLY | O_APPEND);
 
-	if ( x == -1)
+	if (x == -1)
 		return (-1);
 
 	if (text_content)
