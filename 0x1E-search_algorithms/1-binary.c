@@ -4,7 +4,7 @@
  * binary_search - searches for a value in a sorted array
  * @array: a pointer to the first element
  * @size: the number of lements
- * @value: the value to search for 
+ * @value: the value to search for
  *
  * return: int
  */
